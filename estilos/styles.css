@@ -1,0 +1,227 @@
+html {
+    font-size: 62.5%;
+    background-image: url("../assets/img-fondo-playing\ guitar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header__title {
+    color: white;
+    font-size: 4.5rem;
+    font-style: italic;
+    margin-left: 2%;
+    margin-top: 0.5%;
+}
+
+.header__item {
+    padding-top: 0.3%;
+    padding-bottom: 0.5%;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 3rem;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(0, 255, 255, 0.712);
+    margin-top: 1%;
+}
+
+.header__anchor {
+    text-decoration: none;
+    color: white;
+}
+
+.header__presentacion {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+.header__musicSearch { 
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+
+.main__h2 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top: 1.5%;
+    font-style: italic;
+}
+
+.padre-flex {
+    display: flex;
+    justify-content:space-around
+}
+
+
+.card__img {
+    margin-top: 10%;
+    border-style: solid;
+    border-color: white;
+}
+
+
+.card__title {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.footer__description {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.footer__ig {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    margin-left: 5%;
+    width:50%;
+}
+
+.footer__igText {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 0.5%;
+}
+
+.footer__contacto {
+    display: flex;
+    align-items: center;
+}
+
+                    /*formulario de contacto*/
+.h2__contacto{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin: 1%;
+}
+
+
+.formulario__contacto{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.contenedor__grid{
+    display: grid;
+    width: 40vh;
+    height: 30vh;
+    border: 1px white solid;
+    background-color: rgba(0, 255, 255, 0.808);
+    padding: 2%;
+    padding-right: 5%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1 fr 5%;
+    grid-template-areas: "nombre apellido"
+                         "mail telefono"
+                         "mensaje mensaje"
+                         "enviar enviar";
+    gap: 3%;
+    
+
+                         
+}
+
+
+.nombre{
+    grid-area: nombre;
+}
+
+.apellido{
+    grid-area: apellido;
+}
+
+.mail{
+    grid-area: mail;
+}
+
+.telefono{
+    grid-area: telefono;
+}
+
+.mensaje{
+    grid-area: mensaje;
+}
+
+.boton__enviar{
+    width: 30%;
+    grid-area: enviar;
+}
+
+
+
+
+
+                                        /*@media para celulares*/
+@media screen and (max-width: 425px){
+    .header__list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .padre-flex{
+        flex-direction: column;
+    }
+
+    .card__img{
+        width: 40%;
+        margin-top: 8%;
+    }
+
+    .card__title{
+        text-align: start;
+    }
+
+    .header__title{
+        flex-wrap: wrap;
+    }
+
+
+    .main__h2{
+        font-size: 2rem;
+    }
+
+
+    .formulario__contacto{
+        justify-content: start;
+    }
+
+    .contenedor__grid{
+        height: 40vh;
+        grid-template-areas: "nombre"
+                             "apellido"
+                             "mail"
+                             "telefono"
+                             "mensaje"
+                             "enviar";
+    }
+
+    
+}
