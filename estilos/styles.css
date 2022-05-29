@@ -182,9 +182,13 @@ html {
     color: white;
     margin-top: 1%;
     margin-bottom: 1%;
+    background-image: linear-gradient(to right, red , black , red);
+    transition: border 1s;
 }
 
-
+.sobreMi__descripcion:hover {
+    border: 2rem solid tomato;
+}
 
 
 
