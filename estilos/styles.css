@@ -15,6 +15,11 @@ html {
     box-sizing: border-box;
 }
 
+.nav-anchor {
+    font-size: 3.5rem;
+    color: white;
+    padding-bottom: 4%;
+}
 
 .header__title {
     color: white;
@@ -22,32 +27,11 @@ html {
     font-style: italic;
     margin-left: 2%;
     margin-top: 0.5%;
-}
-
-
-.header__item {
-    padding-top: 0.3%;
-    padding-bottom: 0.5%;
-}
-
-.header__list {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    font-size: 3rem;
-    text-align: center;
-    border-style: solid;
-    border-color: white;
-    background-color: rgba(0, 255, 255, 0.712);
-    margin-top: 1%;
-}
-
-.header__anchor {
-    text-decoration: none;
-    color: white;
+    margin-bottom: 1%;
 }
 
 .header__presentacion {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
@@ -55,7 +39,6 @@ html {
     margin-top: 1%;
     margin-bottom: 1%;
 }
-
 
 .header__musicSearch { 
     font-size: 2rem;
