@@ -40,6 +40,37 @@ html {
     margin-bottom: 1%;
 }
 
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);      
+}
+
+.search input{
+    height: 4rem;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+
+.search input:focus{
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search .fa-search{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.search button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 70px;
+    background: blue;
+}
+
 .header__musicSearch { 
     font-size: 2rem;
     text-align: center;
@@ -94,7 +125,23 @@ html {
 .contenedor-formulario {
     font-size: 2rem;
     height: 100%;
+    background-color:#aee1ff;
 }
+
+.sobreMi__section {
+    display: flex;
+    justify-content: center;
+}
+
+.sobreMi__conteiner {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: white 2px solid;
+    background-image: linear-gradient(to right, rgb(0, 255, 149) , rgb(0, 250, 229) , rgb(0, 183, 255));
+    margin-top: 2%;
+}   
+
 
 .sobreMi__descripcion {
     text-align: center;
@@ -103,60 +150,23 @@ html {
     color: white;
     margin-top: 1%;
     margin-bottom: 1%;
-    background-image: linear-gradient(to right, red , black , red);
-    transition: border 1s;
-}
-
-.sobreMi__descripcion:hover {
-    border: 2rem solid tomato;
 }
 
 
 
                                         /*@media para celulares*/
 @media screen and (max-width: 425px){
-    .header__list{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
     .padre-flex{
         flex-direction: column;
     }
 
-    .card__img{
-        width: 40%;
-        margin-top: 8%;
-    }
-
-    .card__title{
-        text-align: start;
-    }
-
-    .header__title{
-        flex-wrap: wrap;
-    }
-
-
     .main__h2{
         font-size: 2rem;
     }
 
-
-    .formulario__contacto{
-        justify-content: start;
+    .card{
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
-
-    .contenedor__grid{
-        height: 40vh;
-        grid-template-areas: "nombre"
-                             "apellido"
-                             "mail"
-                             "telefono"
-                             "mensaje"
-                             "enviar";
-    }
-
-    
 }
