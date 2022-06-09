@@ -1,0 +1,140 @@
+.body {
+    background-image: url("../assets/img-fondo-playing\ guitar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 62.5%;
+}
+
+.nav-anchor {
+    font-size: 3.5rem;
+    color: white;
+    padding-bottom: 4%;
+}
+
+.header__title {
+    color: white;
+    font-size: 4.5rem;
+    font-style: italic;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+
+    &__presentacion {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}
+
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    
+    & input{
+        height: 4rem;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+    }
+    
+    & input:focus{
+        box-shadow: none;
+        border: 2px solid blue;
+    }
+
+    & .fa-search{
+        position: absolute;
+        top: 20px;
+        left: 16px;
+    }
+
+    & button{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 30px;
+        width: 70px;
+        background: blue;
+    }
+    
+}
+
+
+
+.main__h2 {
+    font-size: 3rem;
+    color: $white;
+    text-align: center;
+    margin-top: 1.5%;
+    font-style: italic;
+    margin-bottom: 1.5%;
+}
+
+.card-title {
+    font-size: 2.5rem;
+
+    &-text {
+        font-size: 2rem;
+    }
+    
+}
+
+
+.footer__description {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.footer__contacto {
+    display: flex;
+    align-items: center;
+
+    &__igText {
+        font-size: 1.5rem;
+        color: white;
+        margin-left: 0.5%;
+    }
+
+    &__ig {
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+        margin-left: 5%;
+        width:50%;
+    }
+}
+
+
+.contenedor-formulario {
+    font-size: 2rem;
+    height: 100%;
+    background-color:#aee1ff;
+}
+
+.sobreMi__section {
+    display: flex;
+    justify-content: center;
+
+
+    &__conteiner {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        border: white 2px solid;
+        background-image: linear-gradient(to right, rgb(0, 255, 149) , rgb(0, 250, 229) , rgb(0, 183, 255));
+        margin-top: 2%;
+    }   
+
+        &__descripcion {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: white;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+    
+}

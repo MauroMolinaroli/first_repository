@@ -2,17 +2,17 @@ html {
     font-size: 62.5%;
 }   
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .body {
     background-image: url("../assets/img-fondo-playing\ guitar.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 62.5%;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .nav-anchor {
@@ -71,15 +71,6 @@ html {
     background: blue;
 }
 
-.header__musicSearch { 
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-}
-
-.boton-buscar {
-    font-size: 1.9rem;
-}
 
 .main__h2 {
     font-size: 3rem;
