@@ -12,16 +12,17 @@
     margin-left: 2%;
     margin-top: 0.5%;
     margin-bottom: 1%;
+    
+}
 
-    &__presentacion {
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-align: center;
-        font-size: 2.5rem;
-        font-weight: bold;
-        color: white;
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
+.header__presentacion {
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+font-size: 2.5rem;
+font-weight: bold;
+color: white;
+margin-top: 1%;
+margin-bottom: 1%;
 }
 
 .nav-anchor {
@@ -75,11 +76,10 @@
 
 .card-title {
     font-size: 2.5rem;
+}
 
-    &-text {
-        font-size: 2rem;
-    }
-    
+.card-text {
+    font-size: 2rem;
 }
 
 
@@ -103,7 +103,6 @@
         filter: brightness(1.1);
         mix-blend-mode: multiply;
         margin-left: 5%;
-        width:50%;
     }
 }
 

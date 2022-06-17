@@ -1,0 +1,7 @@
+$redes: (
+    "instagram": 50%
+);
+
+.imgInstagram {
+    max-width: map-get($map: $redes, $key: instagram );
+}
