@@ -21,6 +21,20 @@ html {
   margin-top: 0.5%;
   margin-bottom: 1%; }
 
+.nav-anchor {
+  font-size: 3rem;
+  color: white;
+  padding-bottom: 4%; }
+
+.hero__presentacion {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2%;
+  margin-top: 5%; }
+
 .header__presentacion {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
@@ -30,14 +44,10 @@ html {
   margin-top: 1%;
   margin-bottom: 1%; }
 
-.nav-anchor {
-  font-size: 3.5rem;
-  color: white;
-  padding-bottom: 4%; }
-
 .search {
   position: relative;
-  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1); }
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+  margin-bottom: 3%; }
   .search input {
     height: 4rem;
     text-indent: 25px;
@@ -57,13 +67,16 @@ html {
     width: 70px;
     background: blue; }
 
+.contenedor__musica {
+  margin-bottom: 4%; }
+
 .main__h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: white;
   text-align: center;
   margin-top: 1.5%;
   font-style: italic;
-  margin-bottom: 1.5%; }
+  margin-bottom: 3%; }
 
 .card-title {
   font-size: 2.5rem; }
@@ -112,21 +125,21 @@ html {
     margin-bottom: 1%; }
 
 .boton, .botonRojo, .botonVerde {
-  background-color: blueviolet;
+  background-color: #a766e4;
   text-align: center;
-  color: pink;
+  color: white;
   border-radius: 20px;
   border: 1px solid black; }
   .boton:hover, .botonRojo:hover, .botonVerde:hover {
     filter: opacity(85%); }
 
 .botonRojo {
-  background-color: red;
-  color: yellow; }
+  background-color: #7a4ef3;
+  color: white; }
 
 .botonVerde {
-  background-color: green;
-  color: yellow; }
+  background-color: #4e3fdb;
+  color: white; }
 
 .letraPequeña {
   font-size: 1rem;
