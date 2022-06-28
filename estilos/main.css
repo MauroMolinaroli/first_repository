@@ -89,40 +89,24 @@ html {
   text-align: center;
   color: white; }
 
-.footer__contacto {
-  display: flex;
-  align-items: center; }
-  .footer__contacto__igText {
-    font-size: 1.5rem;
-    color: white;
-    margin-left: 0.5%; }
-  .footer__contacto__ig {
-    filter: brightness(1.1);
-    mix-blend-mode: multiply;
-    margin-left: 5%; }
+.footer__redes {
+  color: white;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 500; }
 
 .contenedor-formulario {
   font-size: 2rem;
   height: 100%;
   background-color: #aee1ff; }
 
-.sobreMi__section {
-  display: flex;
-  justify-content: center; }
-  .sobreMi__section__conteiner {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    border: white 2px solid;
-    background-image: linear-gradient(to right, #00ff95, #00fae5, #00b7ff);
-    margin-top: 2%; }
-  .sobreMi__section__descripcion {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: white;
-    margin-top: 1%;
-    margin-bottom: 1%; }
+.sobreMi__descripcion {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 1%; }
 
 /*@media para celulares*/
 @media screen and (max-width: 425px) {
@@ -132,10 +116,7 @@ html {
     font-size: 2rem; }
   .card {
     margin-bottom: 5px;
-    margin-top: 5px; }
-  .media-cell {
-    width: 75%;
-    height: 80px; } }
+    margin-top: 5px; } }
 
 .boton, .botonRojo, .botonVerde {
   background-color: #a766e4;

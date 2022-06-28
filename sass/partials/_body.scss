@@ -105,23 +105,12 @@
     color: white;
 }
 
-.footer__contacto {
-    display: flex;
-    align-items: center;
-
-    &__igText {
-        font-size: 1.5rem;
-        color: white;
-        margin-left: 0.5%;
-    }
-
-    &__ig {
-        filter: brightness(1.1);
-        mix-blend-mode: multiply;
-        margin-left: 5%;
-    }
+.footer__redes {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 500;
 }
-
 
 .contenedor-formulario {
     font-size: 2rem;
@@ -129,29 +118,13 @@
     background-color:#aee1ff;
 }
 
-.sobreMi__section {
-    display: flex;
-    justify-content: center;
-
-
-    &__conteiner {
-        display: flex;
-        justify-content: center;
-        width: 50%;
-        border: white 2px solid;
-        background-image: linear-gradient(to right, rgb(0, 255, 149) , rgb(0, 250, 229) , rgb(0, 183, 255));
-        margin-top: 2%;
-    }   
-
-        &__descripcion {
-            text-align: center;
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: white;
-            margin-top: 1%;
-            margin-bottom: 1%;
-        }
-    
+.sobreMi__descripcion {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
                                         /*@media para celulares*/
@@ -170,11 +143,7 @@
     margin-top: 5px;
     }
 
-    .media-cell {
-    width: 75%;
-    height: 80px;
-    
-}   
+
 }
 
                                   

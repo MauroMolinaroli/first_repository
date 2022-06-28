@@ -119,21 +119,6 @@ html {
     background-color:#aee1ff;
 }
 
-.sobreMi__section {
-    display: flex;
-    justify-content: center;
-}
-
-.sobreMi__conteiner {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    border: white 2px solid;
-    background-image: linear-gradient(to right, rgb(0, 255, 149) , rgb(0, 250, 229) , rgb(0, 183, 255));
-    margin-top: 2%;
-}   
-
-
 .sobreMi__descripcion {
     text-align: center;
     font-size: 2.5rem;
